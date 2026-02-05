@@ -54,4 +54,7 @@ sources:
         tests:
         - unique:
             column_name: "(date_date || '-' || campaign_key)"
-        
+            
+models:
+      - name: int_campaigns_day 
+        description: lorsqu'on prends un model on ecrit "models" a la place de source et on ne mets pas d'identifier

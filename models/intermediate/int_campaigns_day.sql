@@ -1,5 +1,5 @@
 SELECT
-    date_date,
+    date_date AS date,
     ROUND(SUM(ads_cost),2) AS ad_cost,
     SUM(impression) AS impression,
     SUM(click) AS click

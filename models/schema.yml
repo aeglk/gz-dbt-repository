@@ -32,4 +32,15 @@ sources:
             data_tests:
               - unique
               - not_null
-            description: 2e facon de faire les tests sur schema 
+            description: 2e facon de faire les tests sur schema
+
+       - name: adwords
+         identifier: raw_gz_adwords
+       - name: facebook
+         identifier: raw_gz_facebook
+       - name: criteo
+         identifier: raw_gz_criteo
+       - name: bing
+         identifier: raw_gz_bing
+         
+
